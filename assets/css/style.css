@@ -553,7 +553,9 @@ font-size: 8px;
             width: 20%;
     
         }
-    
+    .teste{
+        font: 10;
+    }
         .compras {
             
             width: 2%;
