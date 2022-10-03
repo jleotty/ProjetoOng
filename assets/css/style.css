@@ -531,7 +531,9 @@ font-size: 8px;
             width: 100%;
            padding: 8%;
         }
-    
+    .teste{
+        font: 10;
+    }
     
         .container {
             width: 10%;
