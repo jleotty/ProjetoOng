@@ -119,8 +119,8 @@
   
       background-color: 
       rgba(212, 207, 202, 0.274); 
-      padding: 27%;
-  
+      padding: 28%;
+        
   }
   
   
@@ -184,7 +184,7 @@
   
           position: absolute;
           left: 8%;
-          top: 162%;
+          top: 165%;
   
           }
   
@@ -250,7 +250,27 @@
           
       
       
+      .office{
+
+
+        display: none;
+        
+          }
+
+     .linha{
+
+
+        display: none;
+        
+          }
   
+          .linha1{
+
+
+            display: none;
+            
+              }
+      
   
   @media (max-width: 576px) {
     
