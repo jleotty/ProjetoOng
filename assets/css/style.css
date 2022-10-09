@@ -164,6 +164,8 @@ color: white;
 
 }
 
+
+
   
   .libotao {
 
@@ -455,8 +457,11 @@ color: black;
             display: none;
             
               }
-      
-  
+
+         
+
+
+
   @media (max-width: 576px) {
     
       .container {
@@ -564,6 +569,17 @@ color: black;
               margin-top: 1%;
   
           }
+
+
+
+          .linkedinm {
+
+            position: absolute;
+             left: 56%;
+              top: -200% ; 
+              width: 9%;
+
+          }
   
           .main {
           background-color: rgba(216, 219, 221, 0.849);
@@ -572,7 +588,7 @@ color: black;
           position: fixed;
           top: 12%;
           padding: 50%;
-          
+          z-index: -2 !important ;
         
          
               
@@ -590,8 +606,9 @@ color: black;
   
       
   
-          .text1 {
+           .text1 {
               font-size: 47px;
+              
               color: rgba(10, 10, 99, 0.795);
               position: absolute;
               top: 17%;
@@ -728,116 +745,51 @@ color: black;
     
   }
   
-  
-  @media screen and (min-width: 768spx)  {
-  
-          .cabecalho {
-              width: 100%;
-             padding: 8%;
-          }
-      .teste{
-          font: 10;
-          background-color: aqua;
-          font-size: 10;
-          color:aliceblue;
+            
+  @media (max-width: 390px) {
+
+
+
+    .linkedinm {
+        position: absolute;
+        top: -150%;
+        left: 46%;
+        width: 11%;
+
       }
-      
-          .container {
-              width: 10%;
-            height: 1%;
-            position: absolute;
-            top: 0%;
-          }
-      
-          .email1 {
-      
-              position: absolute;
-              top: 3%;
-          }
-  
-  
-          .icon {
-              
-              margin-top: 0%;
-              width: 20%;
-      
-          }
-      
-          .compras {
-              
-              width: 2%;
-          }
-      
-          .botao{
-              position: absolute;
-              left: 81%;
-              top: 8%;
-              height: 4%;
-              width: 11%;
-          }
-          
-          .lihome {
-      
-              font-size: 13px;
-          
-              }
-      
-          .liabout {
-      
-              font-size: 13px;
-      
-          }
-      
-          .lipages {
-      
-              font-size: 13px;
-              }
-      
-          .liboarding {
-      
-              font-size: 13px;
-      
-          }
-      
-          .lishop {
-      
-              font-size: 13px;
-              }
-      
-          .liashop {
-      
-              font-size: 13px;
-      
-          }
-      
-          .liblog {
-      
-              font-size: 13px;
-      
-              }
-      
-          .licontato {
-      
-              font-size: 13px;
-      
-          }
-      
-          .libotao {
-              
-              font-size: 10px;
-      
-              }
-  
-           
+
+
+      .twitterm {
+       margin-top: -32%;
+       margin-left: 2%;
+        width: 87%;
+
       }
-  
-       
-  @media screen and (min-width: 992px) {
-  
-      
-  
-  }
-  
-  
-  
-  }
+
+      .facebookm {
+        margin-top: -38%;
+        margin-left: -10%;
+        width: 88%;
+
+      }
+
+
+.logo2 {
+
+
+    margin-top: 1%;
+    width: 35%;
+
+
+}      
+
+.navbar-toggler {
+
+   margin-top: -2%;
+}
+
+.main {
+
+margin-top: -9%;
+
+}
